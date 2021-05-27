@@ -23,38 +23,39 @@ class About extends Component {
             <div className="three columns">
               <img
                 className="profile-pic"
-                src={profilepic}
+                src="https://i.pinimg.com/originals/94/d1/83/94d183616a089c6401a692d0bc1efb3e.png"
                 alt="Nordic Giant Profile Pic"
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>ფონდის შესახებ</h2>
 
-              <p>{bio}</p>
+              <p>ფონდის მიზანია განავითაროს ახალგაზრდებში ჯანსაღი ცხოვრების წესი და ხელი შეუწყოს სხვადასხვა მნიშვნელოვანი ღონისძიებების და პროცესების წინსვლას საქართველოში</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>გამოგვყევით სოციალურ ქსელებში</h2>
                   <p className="address">
-                    <span>{name}</span>
+                    <span>facebook:</span>
+                    <br></br>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/Fund.kolkhi/"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+
                     <br />
                     <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
+                      instagram:
                     </span>
+                    <br></br>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/Fund.kolkhi/"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+
                     <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
                   </p>
                 </div>
-                <div className="columns download">
+                {/* <div className="columns download">
                   <p>
                     <a href={resumeDownload} className="button">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

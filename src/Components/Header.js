@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import "./styles.css";
 
 class Header extends Component {
   render() {
@@ -26,17 +27,17 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                მთავარი
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                ჩვენს შესახებ
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#resume">
                 Resume
               </a>
@@ -52,29 +53,47 @@ class Header extends Component {
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className="responsive-headline">ფონდი `კოლხი`</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <div className="card">
+                <hr></hr>
+                <h3>ფონდის ვებსაიტის და საინფორმაციო 
+                  პლატფორმის განვითარებისთვის თანხა ჩარიცხეთ შემდეგ ანგარიშზე:
+                  GE76BG0000000903672200
+                </h3>
+                <hr>
+                </hr>
+                <h3>ეკოლოგიური პროექტების განსახორციელებლად და მხარდასაჭერად თანხა ჩარიცხეთ შემდეგ ანგარიშზე:
+                GE26BG0000000239960300
+                </h3>
+                <hr></hr>
+                <h3>ფონდის იურიდიული პროცესების გასამართად თანხა ჩარიცხეთ შემდეგ ანგარიშზე:
+                GE55TB7544545061100022
+                </h3>
+                <hr></hr>
+                
+
+              </div>
             </Fade>
             <hr />
-            <Fade bottom duration={2000}>
+            {/* <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
+                <a href={project} className="button btn facebook-btn">
                   <i className="fa fa-book"></i>Project
                 </a>
                 <a href={github} className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>
-            </Fade>
+            </Fade> */}
           </div>
         </div>
 

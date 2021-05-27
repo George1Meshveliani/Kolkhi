@@ -1,0 +1,10 @@
+.card {
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-top: 5%;
+    border-radius: 15px;
+    opacity: 80%;
+}
+
+.card, h3 {
+    text-align: left;
+}
