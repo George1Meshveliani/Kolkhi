@@ -60,7 +60,7 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">მოქალაქეთა პოლიტიკური გაერთიანება “რევოლუციური დემოკრატია”</h1>
+              <h1 className="responsive-headline">პარტია - “რევოლუციური დემოკრატია”</h1>
             </Fade>
             <Fade bottom duration={1200}>
               <div className="card">
