@@ -28,26 +28,26 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>ფონდის შესახებ</h2>
+              <h2>პარტიის შესახებ</h2>
 
-              <p>ფონდის მიზანია განავითაროს ახალგაზრდებში ჯანსაღი ცხოვრების წესი და ხელი შეუწყოს სხვადასხვა მნიშვნელოვანი ღონისძიებების და პროცესების წინსვლას საქართველოში</p>
+              <p>მოქალაქეთა პოლიტიკური გაერთიანება “რევოლუციური დემოკრატია”</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>გამოგვყევით სოციალურ ქსელებში</h2>
-                  <p className="address">
-                    <span>facebook:</span>
-                    <br></br>
-                    <li class="list-inline-item"><a href="https://www.facebook.com/Fund.kolkhi/"  target="_blank"><i class="fa fa-facebook"></i></a></li>
+//                   <h2>გამოგვყევით სოციალურ ქსელებში</h2>
+//                   <p className="address">
+//                     <span>facebook:</span>
+//                     <br></br>
+//                     <li class="list-inline-item"><a href="https://www.facebook.com/Fund.kolkhi/"  target="_blank"><i class="fa fa-facebook"></i></a></li>
 
-                    <br />
-                    <span>
-                      instagram:
-                    </span>
-                    <br></br>
-                    <li class="list-inline-item"><a href="https://www.instagram.com/Fund.kolkhi/"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+//                     <br />
+//                     <span>
+//                       instagram:
+//                     </span>
+//                     <br></br>
+//                     <li class="list-inline-item"><a href="https://www.instagram.com/Fund.kolkhi/"  target="_blank"><i class="fa fa-instagram"></i></a></li>
 
-                    <br />
-                  </p>
+//                     <br />
+//                   </p>
                 </div>
                 {/* <div className="columns download">
                   <p>
