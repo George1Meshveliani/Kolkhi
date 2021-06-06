@@ -21,11 +21,6 @@ class About extends Component {
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
-              <img
-                className="profile-pic"
-                src="https://i.pinimg.com/originals/94/d1/83/94d183616a089c6401a692d0bc1efb3e.png"
-                alt="Nordic Giant Profile Pic"
-              />
             </div>
             <div className="nine columns main-col">
               <h2>პარტიის შესახებ</h2>
@@ -33,21 +28,7 @@ class About extends Component {
               <p>მოქალაქეთა პოლიტიკური გაერთიანება “რევოლუციური დემოკრატია”</p>
               <div className="row">
                 <div className="columns contact-details">
-//                   <h2>გამოგვყევით სოციალურ ქსელებში</h2>
-//                   <p className="address">
-//                     <span>facebook:</span>
-//                     <br></br>
-//                     <li class="list-inline-item"><a href="https://www.facebook.com/Fund.kolkhi/"  target="_blank"><i class="fa fa-facebook"></i></a></li>
 
-//                     <br />
-//                     <span>
-//                       instagram:
-//                     </span>
-//                     <br></br>
-//                     <li class="list-inline-item"><a href="https://www.instagram.com/Fund.kolkhi/"  target="_blank"><i class="fa fa-instagram"></i></a></li>
-
-//                     <br />
-//                   </p>
                 </div>
                 {/* <div className="columns download">
                   <p>
