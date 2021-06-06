@@ -60,12 +60,12 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">ფონდი `კოლხი`</h1>
+              <h1 className="responsive-headline">მოქალაქეთა პოლიტიკური გაერთიანება “რევოლუციური დემოკრატია”</h1>
             </Fade>
             <Fade bottom duration={1200}>
               <div className="card">
                 <hr></hr>
-                <h3>ფონდის ვებსაიტის და საინფორმაციო 
+                <h3>პარტიის ვებსაიტის, საიმიჯო გვერდების და საინფორმაციო 
                   პლატფორმის განვითარებისთვის თანხა ჩარიცხეთ შემდეგ ანგარიშზე:
                   GE76BG0000000903672200
                 </h3>
