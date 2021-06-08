@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import { FileIcon, defaultStyles } from 'react-file-icon';
+
 import "./styles.css";
 
 class Header extends Component {
@@ -65,7 +67,12 @@ class Header extends Component {
             <Fade bottom duration={1200}>
               <div className="card">
                 <hr></hr>
-                <h3><strong><u>შემოგვიერდით</u></strong>
+                <h3><strong><u>შემოგვიერდით, შეავსეთ ფორმა</u></strong>
+                <section className="fileform">
+                  <section className="file">
+                  <FileIcon extension="ფორმა" {...defaultStyles.docx} />
+                  </section>
+                </section>
                 </h3>
                 <hr>
                 </hr>
