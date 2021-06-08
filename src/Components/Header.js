@@ -67,10 +67,17 @@ class Header extends Component {
             <Fade bottom duration={1200}>
               <div className="card">
                 <hr></hr>
-                <h3><strong><u>შემოგვიერდით, შეავსეთ ფორმა</u></strong>
+                <h3>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmciuh2g3bPgYQzGR12f_NkPnFh90m7CK--Qo-uwOHUDogGw/viewform?vc=0&c=0&w=1&flr=0" 
+                    target="blank">
+                  <strong><u>შემოგვიერდით, შეავსეთ ფორმა</u></strong>
+                  </a>
                 <section className="fileform">
                   <section className="file">
-                  <FileIcon extension="ფორმა" {...defaultStyles.docx} />
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfmciuh2g3bPgYQzGR12f_NkPnFh90m7CK--Qo-uwOHUDogGw/viewform?vc=0&c=0&w=1&flr=0" 
+                    target="blank">
+                         <FileIcon extension="ფორმა" {...defaultStyles.docx} />
+                    </a>
                   </section>
                 </section>
                 </h3>
