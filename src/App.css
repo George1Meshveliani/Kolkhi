@@ -1,0 +1,39 @@
+h1 { 
+    margin-top: 55px;
+    text-align: center;
+    margin: auto;
+    color: #008cff; 
+    font-size: 38px; 
+    font-family: 'Signika', sans-serif; 
+    padding-bottom: 10px; 
+}
+
+
+p { 
+    font-weight: bold;
+    text-align: center;
+/*     
+    margin-left: 50px; */
+    font-family: 'Inder', sans-serif; 
+    line-height: 28px; 
+    margin-bottom: 15px; 
+    color: rgb(255, 245, 245); 
+}
+
+.rd-text {
+    text-align: justify;
+    color:rgb(255, 245, 245);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.test-space {
+    padding: 30px;
+}
+
+.h3 {
+    text-align: center;
+}
+
+
+

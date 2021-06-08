@@ -65,9 +65,7 @@ class Header extends Component {
             <Fade bottom duration={1200}>
               <div className="card">
                 <hr></hr>
-                <h3>პარტიის ვებსაიტის, საიმიჯო გვერდების და საინფორმაციო 
-                  პლატფორმის განვითარებისთვის თანხა ჩარიცხეთ შემდეგ ანგარიშზე:
-                  GE76BG0000000903672200
+                <h3><strong><u>შემოგვიერდით</u></strong>
                 </h3>
                 <hr>
                 </hr>
