@@ -21,7 +21,7 @@ p {
 }
 
 .rd-text {
-    text-align: justify;
+    /* text-align: justify; */
     color:rgb(255, 245, 245);
     margin-left: 30px;
     margin-right: 30px;
